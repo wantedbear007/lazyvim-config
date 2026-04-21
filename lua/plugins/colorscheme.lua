@@ -1,20 +1,21 @@
 return {
   {
-    "olimorris/onedarkpro.nvim",
-    priority = 1000,
-    config = function()
-      require("onedarkpro").setup({
-        theme = "onedark_vivid", -- try: onedark, onelight, etc.
-        styles = {
-          comments = "italic",
-          keywords = "bold",
-        },
-        options = {
-          transparency = false,
-        },
-      })
+    "rebelot/kanagawa.nvim",
+    opts = {
+      options = {
+        transparency = false, -- keep solid background
+      },
+      styles = {
+        comments = "italic",
+        keywords = "bold",
+      },
+    },
+  },
 
-      vim.cmd("colorscheme onedark")
-    end,
+  {
+    "LazyVim/LazyVim",
+    opts = {
+      -- colorscheme = "onedark_dark", -- darker variant
+    },
   },
 }

@@ -1,10 +1,4 @@
-vim.api.nvim_create_autocmd("VimEnter", {
-  callback = function()
-    local cwd = vim.fn.fnamemodify(vim.fn.getcwd(), ":t")
-    vim.fn.setreg("", "\27]0;" .. cwd .. "\7")
-    io.write("\27]0;" .. cwd .. "\7")
-  end,
-}) -- Autocmds are automatically loaded on the VeryLazy event
+-- Autocmds are automatically loaded on the VeryLazy event
 -- Default autocmds that are always set: https://github.com/LazyVim/LazyVim/blob/main/lua/lazyvim/config/autocmds.lua
 --
 -- Add any additional autocmds here
