@@ -16,12 +16,14 @@ vim.opt.rtp:prepend(lazypath)
 
 require("lazy").setup({
   spec = {
-    { "LazyVim/LazyVim", opts = { colorscheme = "onedark_dark" } },
+    { "LazyVim/LazyVim", opts = { colorscheme = "oxocarbon" } },
     -- add LazyVim and import its plugins
     { "LazyVim/LazyVim", import = "lazyvim.plugins" },
     -- clang for c and c++
     { import = "lazyvim.plugins.extras.lang.clangd" },
     -- import/override with your plugins
+    -- { "folke/snacks.nvim", opts = { dashboard = { enabled = false } } },
+    -- { import = "lazyvim.plugins.extras.ui.dashboard-nvim" },
     { import = "plugins" },
   },
   defaults = {
