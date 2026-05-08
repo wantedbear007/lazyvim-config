@@ -11,3 +11,5 @@ vim.opt.relativenumber = false
 -- vim.cmd("colorscheme oxocarbon")
 vim.opt.cursorline = true
 vim.opt.clipboard = "unnamedplus"
+
+vim.opt.swapfile = false

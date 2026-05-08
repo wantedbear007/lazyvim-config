@@ -21,6 +21,7 @@ require("lazy").setup({
     { "LazyVim/LazyVim", import = "lazyvim.plugins" },
     -- clang for c and c++
     { import = "lazyvim.plugins.extras.lang.clangd" },
+    { import = "lazyvim.plugins.extras.lang.go" },
     -- import/override with your plugins
     -- { "folke/snacks.nvim", opts = { dashboard = { enabled = false } } },
     -- { import = "lazyvim.plugins.extras.ui.dashboard-nvim" },
