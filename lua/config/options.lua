@@ -12,4 +12,6 @@ vim.opt.relativenumber = false
 vim.opt.cursorline = true
 vim.opt.clipboard = "unnamedplus"
 
+vim.opt.title = true
+
 vim.opt.swapfile = false
