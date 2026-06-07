@@ -13,5 +13,7 @@ vim.opt.cursorline = true
 vim.opt.clipboard = "unnamedplus"
 
 vim.opt.title = true
-
+vim.diagnostic.config({
+  update_in_insert = false,
+})
 vim.opt.swapfile = false
