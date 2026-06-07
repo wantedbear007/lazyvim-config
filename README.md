@@ -10,13 +10,8 @@ A personalized [LazyVim](https://github.com/LazyVim/LazyVim) distribution for Go
 
 ## Screenshots
 
-> TODO: Add screenshots of the dashboard, editor, terminal, and colorscheme here.
-
-<!--
-![Dashboard](./assets/dashboard.png)
-![Editing Go](./assets/go-edit.png)
-![Floating Terminal](./assets/terminal.png)
--->
+![Dashboard](./ss/sc1.heic)
+![Editor](./ss/sc2.heic)
 
 ---
 
