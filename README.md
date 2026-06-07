@@ -10,8 +10,8 @@ A personalized [LazyVim](https://github.com/LazyVim/LazyVim) distribution for Go
 
 ## Screenshots
 
-![Dashboard](./ss/sc1.heic)
-![Editor](./ss/sc2.heic)
+![Dashboard](./ss/sc1.png)
+![Editor](./ss/sc2.png)
 
 ---
 
